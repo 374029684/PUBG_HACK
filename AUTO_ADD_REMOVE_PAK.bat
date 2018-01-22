@@ -10,21 +10,21 @@ echo beware fooled
 echo moderate games benefit the brain 
 echo do not addicted to the game 
 echo reasonable to arrange a time to enjoy a healthy life
-echo ¾Ü¾øµÁ°æÓÎÏ·£¬×¢Òâ×ÔÎÒ±£»¤£¬½÷·ÀÊÜÆ­ÉÏµ±£¬ÊÊ¶ÈÓÎÏ·ÒæÄÔ£¬³ÁÃÔÓÎÏ·ÉËÉí£¬ºÏÀí°²ÅÅÊ±¼ä£¬ÏíÊÜ½¡¿µÉú»î~!
+echo æ‹’ç»ç›—ç‰ˆæ¸¸æˆï¼Œæ³¨æ„è‡ªæˆ‘ä¿æŠ¤ï¼Œè°¨é˜²å—éª—ä¸Šå½“ï¼Œé€‚åº¦æ¸¸æˆç›Šè„‘ï¼Œæ²‰è¿·æ¸¸æˆä¼¤èº«ï¼Œåˆç†å®‰æ’æ—¶é—´ï¼Œäº«å—å¥åº·ç”Ÿæ´»~!
 cd /d %~dp0/PAKS
 setlocal enabledelayedexpansion
 set /a a=0
-set PUBG_PATH=C:\Program Files (x86)\Steam\steamapps\common\PUBG
+set PUBG_PATH=E:\steam\steamapps\common\PUBG
 for /f "delims=" %%i in ('dir /aa/s/b/on *.pak') do (
 set /a a+=1
   mklink "!PUBG_PATH!\TslGame\Content\Paks\TslGame-WindowsNoEditor_sound1!a!88888.pak"     %%~fi
 )
 echo  File deployment finished!!!!!
-echo  ÎÄ¼ş²¿ÊğÍê±Ï
+echo  æ–‡ä»¶éƒ¨ç½²å®Œæ¯•
 echo   Open the game if you are in the Ingame Lobby (when you hear the sound), the most people hear the sound first and still have blackscreen, switch back
-echo  ºÚÆÁ½øÓÎÏ·Ìıµ½ÉùÒôÇĞ»ØÀ´£¬¾ÍÊÇÔÚ³öÉúµØµÈ´ıµÄÊ±ºò
+echo  é»‘å±è¿›æ¸¸æˆå¬åˆ°å£°éŸ³åˆ‡å›æ¥ï¼Œå°±æ˜¯åœ¨å‡ºç”Ÿåœ°ç­‰å¾…çš„æ—¶å€™
 echo  Just enter a number, only a number can be entered to continue!
-echo  ÇĞ»ØÀ´Ëæ±ãÊäÈëÒ»¸öÊı×Ö¾Í¿ÉÒÔÁË
+echo  åˆ‡å›æ¥éšä¾¿è¾“å…¥ä¸€ä¸ªæ•°å­—å°±å¯ä»¥äº†
 pause;
 set N=1
 :start
@@ -34,8 +34,8 @@ set /a n=%n%+1
 goto start 
 :end
 echo ~~~~~~success~~~~enjoy~~~~~~~game!~~~~~~~~~~~~~~~
-echo ~~~~~~³É¹¦²¿Êğ£¬ÏíÊÜ½¡¿µÓÎÏ·£¬¹Ø°®ÏÖÊµÉú»î~~~~~~~~~~
+echo ~~~~~~æˆåŠŸéƒ¨ç½²ï¼Œäº«å—å¥åº·æ¸¸æˆï¼Œå…³çˆ±ç°å®ç”Ÿæ´»~~~~~~~~~~
 echo ~~Away from the game cheat start from ourselfs~~~
-echo ~~~~~~~~~~~~Ğ»Ğ»¹Ø×¢~~~~~~thanks~~~~~~~~~~~~~~~~~~
+echo ~~~~~~~~~~~~è°¢è°¢å…³æ³¨~~~~~~thanks~~~~~~~~~~~~~~~~~~
 pause;
 
